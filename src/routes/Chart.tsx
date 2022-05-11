@@ -27,6 +27,9 @@ const Tab = styled.div`
   border-radius: 10px;
   cursor: pointer;
   width: 30%;
+  &:hover {
+    color: ${(props) => props.theme.accentColor};
+  }
 `;
 
 const Chart = ({ coinId }: IChartProp) => {
