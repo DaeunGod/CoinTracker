@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/CoinTracker/static/js/main.3bad4e84.js",
+    "main.js": "/CoinTracker/static/js/main.3779bc0e.js",
     "index.html": "/CoinTracker/index.html",
-    "main.3bad4e84.js.map": "/CoinTracker/static/js/main.3bad4e84.js.map"
+    "main.3779bc0e.js.map": "/CoinTracker/static/js/main.3779bc0e.js.map"
   },
   "entrypoints": [
-    "static/js/main.3bad4e84.js"
+    "static/js/main.3779bc0e.js"
   ]
 }
