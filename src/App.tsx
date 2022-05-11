@@ -2,7 +2,7 @@ import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Router from "./routes/Router";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { HelmetProvider } from "react-helmet-async";
-import { RecoilRoot, useRecoilValue } from "recoil";
+import { useRecoilValue } from "recoil";
 import { isDarkAtom } from "./atoms";
 import { darkTheme, lightTheme } from "./theme";
 

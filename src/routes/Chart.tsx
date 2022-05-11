@@ -3,8 +3,9 @@ import { fetchCoinHistory, IHistorical } from "../api";
 
 import LineChart from "../Components/Chart/LineChart";
 import CandleStickChart from "../Components/Chart/CandleStickChart";
-import { useState } from "react";
 import styled from "styled-components";
+import { useRecoilState } from "recoil";
+import { showCandleStickChartAtom } from "../atoms";
 
 interface IChartProp {
   coinId: string;
@@ -37,7 +38,9 @@ const Chart = ({ coinId }: IChartProp) => {
     }
   );
 
-  const [showCandleStickChart, setShowCandleStickChart] = useState(false);
+  const [showCandleStickChart, setShowCandleStickChart] = useRecoilState(
+    showCandleStickChartAtom
+  );
 
   const onClick = () => {
     setShowCandleStickChart((prev) => !prev);

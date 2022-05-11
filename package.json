@@ -1,5 +1,5 @@
 {
-  "name": "type_styled_components",
+  "name": "coin_tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +54,6 @@
     "@types/react-query": "^1.2.9",
     "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://DaeunGod.github.io/CoinTracker"
 }
